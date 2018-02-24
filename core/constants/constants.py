@@ -11,17 +11,27 @@
 """
 
 # ----------- START: Native Imports ---------- #
-__import__('pkg_resources').declare_namespace(__name__)
+import logging
 # ----------- END: Native Imports ---------- #
 
 # ----------- START: Third Party Imports ---------- #
 # ----------- END: Third Party Imports ---------- #
 
 # ----------- START: In-App Imports ---------- #
-from core.constants.constants import *
 # ----------- END: In-App Imports ---------- #
-
 
 __all__ = [
     # All public symbols go here.
 ]
+
+
+# ------------------- START: File Logger ------------------ #
+
+# Log file size in Mega Bytes (MB).
+LOG_FILE_MAX_BYTES = 20
+
+LOG_FILE_BACKUP_COUNT = 5
+
+LOG_LEVEL = logging.INFO
+
+# -------------------- END: File Logger ------------------- #
