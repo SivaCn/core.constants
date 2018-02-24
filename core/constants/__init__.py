@@ -18,7 +18,7 @@ __import__('pkg_resources').declare_namespace(__name__)
 # ----------- END: Third Party Imports ---------- #
 
 # ----------- START: In-App Imports ---------- #
-from core.constants.constants import *
+from core.constants.constants import LOG_FORMAT, central_logger_settings
 # ----------- END: In-App Imports ---------- #
 
 

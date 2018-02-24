@@ -26,12 +26,12 @@ __all__ = [
 
 
 # ------------------- START: File Logger ------------------ #
+LOG_FORMAT = '[%(asctime)s]: %(levelname)s: %(message)s'
 
-# Log file size in Mega Bytes (MB).
-LOG_FILE_MAX_BYTES = 20
-
-LOG_FILE_BACKUP_COUNT = 5
-
-LOG_LEVEL = logging.INFO
-
+central_logger_settings = {
+    'LOG_FILE_NAME': 'central_logger.log',
+    'LOG_FILE_MAX_BYTES': 1024 * 512,
+    'LOG_FILE_BACKUP_COUNT': 5,
+    'LOG_LEVEL': logging.INFO,
+}
 # -------------------- END: File Logger ------------------- #
