@@ -28,6 +28,14 @@ __all__ = [
 ]
 
 
+
+SCHEDULER_COALESCE = False
+SCHEDULER_MAX_INSTANCES = 3
+SCHEDULER_DEFAULT_DELAY_BY_SECS = 10
+SCHEDULER_THREAD_POOL_EXECUTOR_COUNT = 20
+SCHEDULER_PROCESS_POOL_EXECUTOR_COUNT = 5
+SCHEDULER_MISFIRE_GRACE_TIME_IN_SECS = 60
+
 AMQP_CONNECTION_STRING = 'amqp://%(username)s:%(password)s@%(host)s:%(port)s'
 
 # ------------------- START: File Logger ------------------ #
