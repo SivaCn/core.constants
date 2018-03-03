@@ -48,3 +48,22 @@ central_logger_settings = {
     'LOG_LEVEL': logging.INFO,
 }
 # -------------------- END: File Logger ------------------- #
+
+SCHEDULER_SVC_LOGGER_TPL = {
+    'log_level': 'INFO',
+    'category': 'scheduler_svc',
+    'error': None,
+    'status': 'SUCCESS',
+    'massage': None,
+    'error_trace': None
+}
+
+SCHEDULER_ACCESS_LOGGER_TPL = {
+    'log_level': 'INFO',
+    'category': 'scheduler_access',
+    'error': None,
+    'massage': None,
+    'job_id': None,
+    'error_trace': None,
+    'params': dict()
+}
