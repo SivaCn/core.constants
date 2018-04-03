@@ -37,6 +37,7 @@ SCHEDULER_PROCESS_POOL_EXECUTOR_COUNT = 5
 SCHEDULER_MISFIRE_GRACE_TIME_IN_SECS = 60
 
 INITIATED = 'initiated'
+MISSED = 'missed'
 
 AMQP_CONNECTION_STRING = 'amqp://%(username)s:%(password)s@%(host)s:%(port)s'
 
