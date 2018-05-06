@@ -58,7 +58,8 @@ message_mapper = {
   'CM0030' : 'Argument job_action is not one among $allowed_job_actions',
   'CM0031' : 'Unable to remove job with job_id($job_id)',
   'CM0032' : 'Successfully removed the job with job_id($job_id)',
-  'CM0033' : 'No job found with job_id($job_id)'
+  'CM0033' : 'No job found with job_id($job_id)',
+  'CM0034' : 'No failed sms found',
  }
 
 def code_message(code):
