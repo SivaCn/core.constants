@@ -70,3 +70,6 @@ SCHEDULER_ACCESS_LOGGER_TPL = {
     'error_trace': None,
     'params': dict()
 }
+
+# ------------------------------------ Events ------------------------------- #
+CONSTANT_EVENT_SCHEDULE_INITIATED= 'schedule initiated'
