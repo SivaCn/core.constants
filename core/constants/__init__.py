@@ -68,4 +68,5 @@ SCHEDULER_ACCESS_LOGGER_TPL = {
 }
 
 # ------------------------------------ Events ------------------------------- #
-CONSTANT_EVENT_SCHEDULE_INITIATED= 'schedule initiated'
+CONSTANT_EVENT_SCHEDULE_INITIATED = 'schedule initiated'
+CONSTANT_EVENT_ALWAYS_SEND_SMS = 'always on'
